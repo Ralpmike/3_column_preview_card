@@ -25,6 +25,9 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+.container1 {
+  border-radius: 10px 0 0 10px;
+}
 .container1, .container2, .container3  {
   background: var(--Bright-orange);
   padding: 40px;
@@ -61,6 +64,7 @@ p {
 }
 .container3 {
   background: var(--Very-dark-cyan);
+  border-radius: 0 10px 10px 0;
 }
 .btn3 {
   color: var(--Very-dark-cyan);
